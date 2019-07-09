@@ -1,0 +1,17 @@
+{
+  "name": "Git Collapse",
+  "version": "0.2",
+  "manifest_version" : 2,
+  "description": "Collapse All fileds that are being reviewed",
+  "background" : {
+    "scripts" : ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+      "storage",
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ],
+  "browser_action": {}
+}
